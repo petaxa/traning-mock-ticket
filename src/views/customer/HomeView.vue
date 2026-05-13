@@ -25,7 +25,7 @@ function search(params: { query: string; area: string; genre: string }) {
     <section class="top-band">
       <div class="top-copy">
         <p class="eyebrow">Independent ticket marketplace</p>
-        <h1>手売りの一枚を、まだ出会っていない観客へ。</h1>
+        <h1>手売りの一枚をあなたへ。</h1>
         <p>ノルマで抱えたチケットを、ライブに行きたい人へ広く届けるモックプラットフォームです。</p>
       </div>
       <div class="top-metrics" aria-label="販売状況">
