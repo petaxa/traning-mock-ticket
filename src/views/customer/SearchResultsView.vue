@@ -34,8 +34,8 @@ function search(params: { query: string; area: string; genre: string }) {
     <section class="section-stack">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Search</p>
-          <h1>検索結果</h1>
+          <p class="eyebrow">Search / knoq</p>
+          <h1>条件に合う公演</h1>
         </div>
         <span>{{ results.length }} 件</span>
       </div>

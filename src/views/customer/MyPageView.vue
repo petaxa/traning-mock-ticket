@@ -33,7 +33,7 @@ const supportPoints = computed(() =>
   <PublicLayout>
     <section class="mypage-grid">
       <aside class="profile-panel">
-        <p class="eyebrow">My page</p>
+        <p class="eyebrow">My knoq</p>
         <h1>{{ session.userDisplayName }}</h1>
         <dl class="compact-list">
           <div>
@@ -51,7 +51,7 @@ const supportPoints = computed(() =>
         </dl>
       </aside>
       <section class="point-panel">
-        <p class="eyebrow">Support points</p>
+        <p class="eyebrow">Support impact</p>
         <h2 :aria-label="`応援ポイント ${supportPoints.total} pt`">{{ supportPoints.total }} pt</h2>
         <p>初めて買った箱のキャパと、そのバンドの最新ライブキャパの差をポイント化しています。</p>
         <ul v-if="supportPoints.items.length" class="point-list">
@@ -70,7 +70,7 @@ const supportPoints = computed(() =>
     <section class="section-stack">
       <div class="section-heading">
         <div>
-          <p class="eyebrow">Tickets</p>
+          <p class="eyebrow">Saved tickets</p>
           <h2>購入済みチケット</h2>
         </div>
       </div>

@@ -36,7 +36,7 @@ function completePickup() {
 <template>
   <main v-if="purchase && canConfirm" class="pickup-confirmation-shell">
     <section class="pickup-confirmation-panel" aria-labelledby="pickup-confirmation-title">
-      <p class="eyebrow">Paper ticket pickup</p>
+      <p class="eyebrow">knoq paper pickup</p>
       <h1 id="pickup-confirmation-title">受け取り確認</h1>
       <p>スタッフが控えと照合する購入番号です。確認後、紙チケットを手渡してください。</p>
 

@@ -37,7 +37,7 @@ function completePurchase() {
 <template>
   <CheckoutShell v-if="event && summary" :event="event" step="confirm">
     <section class="form-panel">
-      <p class="eyebrow">Order review</p>
+      <p class="eyebrow">Final check</p>
       <h2>購入内容の確認</h2>
       <dl class="receipt-list">
         <div>

@@ -15,15 +15,15 @@ function logout() {
 <template>
   <div class="app-shell customer-shell">
     <header class="site-header">
-      <RouterLink class="brand" :to="{ name: 'home' }">
-        <span class="brand-mark">IT</span>
+      <RouterLink class="brand customer-brand" :to="{ name: 'home' }" aria-label="knoq ホーム">
+        <img class="brand-logo" src="/icon.png" alt="" width="44" height="44" />
         <span>
-          <strong>Indie Ticket</strong>
-          <small>ノルマを次の観客へ</small>
+          <strong>knoq</strong>
+          <small>小規模ライブのチケットマーケット</small>
         </span>
       </RouterLink>
       <nav class="header-nav" aria-label="購入者メニュー">
-        <RouterLink :to="{ name: 'home' }">探す</RouterLink>
+        <RouterLink :to="{ name: 'home' }">公演を探す</RouterLink>
         <RouterLink :to="{ name: 'mypage' }">マイページ</RouterLink>
         <button v-if="session.isAuthenticated" class="text-button" type="button" @click="logout">
           ログアウト

@@ -13,7 +13,7 @@ defineProps<{
   <PublicLayout>
     <section class="checkout-layout" aria-label="購入手続き">
       <aside class="checkout-summary">
-        <p class="eyebrow">Secure Checkout</p>
+        <p class="eyebrow">knoq checkout</p>
         <h1>{{ event.title }}</h1>
         <dl class="compact-list">
           <div>

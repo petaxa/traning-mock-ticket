@@ -54,7 +54,7 @@ function authenticatePasskey() {
   <PublicLayout>
     <section class="auth-page">
       <div class="form-panel">
-        <p class="eyebrow">Sign in</p>
+        <p class="eyebrow">Sign in / knoq</p>
         <template v-if="hasStoredPasskey">
           <h1>パスキーでログイン</h1>
           <p>{{ session.email }} のパスキーがこの端末に登録されています。</p>

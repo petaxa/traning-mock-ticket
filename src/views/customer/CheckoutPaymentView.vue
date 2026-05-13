@@ -40,7 +40,7 @@ function submitPayment() {
   <CheckoutShell v-if="event && summary" :event="event" step="payment">
     <section class="stripe-shell">
       <div>
-        <p class="eyebrow">Stripe style mock</p>
+        <p class="eyebrow">Payment mock</p>
         <h2>カード情報</h2>
         <p>テスト用カード情報を入力済みにしています。実際の決済は発生しません。</p>
       </div>

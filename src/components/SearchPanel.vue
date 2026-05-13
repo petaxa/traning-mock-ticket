@@ -54,6 +54,6 @@ function submitSearch() {
         <option v-for="genre in genres" :key="genre" :value="genre">{{ genre }}</option>
       </select>
     </label>
-    <button class="button" type="submit">検索</button>
+    <button class="button" type="submit">公演を探す</button>
   </form>
 </template>

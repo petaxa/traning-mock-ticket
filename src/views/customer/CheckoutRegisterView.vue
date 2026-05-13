@@ -57,7 +57,7 @@ function authenticatePasskey() {
 <template>
   <CheckoutShell v-if="event" :event="event" step="register">
     <section class="form-panel">
-      <p class="eyebrow">One minute signup</p>
+      <p class="eyebrow">One minute entry</p>
       <template v-if="hasStoredPasskey">
         <h2>パスキーで購入を続ける</h2>
         <p>{{ session.email }} のパスキーがこの端末に登録されています。</p>
