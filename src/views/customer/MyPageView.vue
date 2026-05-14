@@ -34,7 +34,6 @@ const supportPoints = computed(() =>
     <section class="mypage-grid">
       <aside class="profile-panel">
         <p class="eyebrow">My knoq</p>
-        <h1>{{ session.userDisplayName }}</h1>
         <dl class="compact-list">
           <div>
             <dt>登録メール</dt>
